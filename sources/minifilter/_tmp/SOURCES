@@ -1,0 +1,12 @@
+TARGETNAME=hide_files_filter
+TARGETTYPE=DRIVER
+TARGETPATH=bin
+DRIVERTYPE=FS
+
+
+TARGETLIBS= $(TARGETLIBS) \
+            $(IFSKIT_LIB_PATH)\fltMgr.lib
+
+SOURCES=structures_and_routines.c\
+		hide_files_filter.c
+
